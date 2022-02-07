@@ -1,10 +1,10 @@
 class Hello {
-  constructor(){}
+  constructor() {}
 
   sayHello(name: string) {
-    console.log(`Hello ${name}`)
+    console.log(`Hello ${name}`);
   }
 }
 
-const hello = new Hello()
+const hello = new Hello();
 hello.sayHello("World!");
